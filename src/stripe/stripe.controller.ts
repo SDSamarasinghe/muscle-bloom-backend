@@ -1,4 +1,3 @@
-// src/stripe/stripe.controller.ts
 import { Controller, Post, Body } from '@nestjs/common';
 import { StripeService } from './stripe.service';
 
