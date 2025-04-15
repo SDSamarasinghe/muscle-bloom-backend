@@ -1,4 +1,3 @@
-// src/users/enums/user-role.enum.ts
 export enum UserRole {
   SUPER_ADMIN = 'super_admin',
   ORGANIZATION = 'organization',
