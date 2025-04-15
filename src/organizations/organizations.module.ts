@@ -12,8 +12,8 @@ import { EmailModule } from '../email/email.module';
   imports: [
     MongooseModule.forFeature([
       { name: Organization.name, schema: OrganizationSchema },
-    ]), // Register Organization schema
-    EmailModule, // Import EmailModule for EmailService
+    ]),
+    EmailModule,
   ],
   controllers: [OrganizationsController],
   providers: [OrganizationsService],
